@@ -1,0 +1,121 @@
+/* CSS Document */
+body{
+	margin: 0px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+body,td,th {
+	font-family: "微软雅黑", "宋体";
+	font-size: 14px;
+	color: #000;
+	line-height: 20px;
+}
+
+a{
+	color: #000;
+	text-decoration: none;	
+}
+
+image{
+	border:none;	
+}
+
+.topNav{
+	width: 100%;
+	height: 40px;
+	background-image: url(../image/topNavBg.png);
+	background-repeat: repeat-x;
+	padding-left: 10px;
+	padding-right: 30px;
+	font-size: 14px;
+	line-height: 40px;
+	margin-bottom:10px;
+}
+
+.topNav a{
+	color: #FFF;
+}
+
+.topNav image{
+	float:right;
+	margin-top:7px;
+	margin-right:20px;
+	cursor:pointer;
+}
+
+.main{
+	width:100%;
+	height:520px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.card{
+	margin: 10px;
+	float: left;
+	background-image: url(../image/cardBg.png);
+	background-repeat: no-repeat;
+	height: 240px;
+	width: 200px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.card .title a{
+	font-size: 14px;
+	color: #F60;
+	line-height: 30px;
+}
+
+.esTime{
+	font-size: 20px;
+	line-height: 30px;
+	color: #900;	
+}
+
+.card input,.redBox input{
+	line-height: 25px;
+	color: #FF0;
+	background-image: url(../image/cardBtnBg.png);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 150px;
+	border: none;
+}
+
+.redBox{
+	border: 2px solid #900;
+	margin-top:5px;
+	padding:5px;
+}
+
+.userList{
+	border: 1px solid #000;
+	height: 188px;
+	width: 100%;
+}
+
+.userList .offset{
+	margin-left:200px;
+}
+
+.userList .title{
+	color: #FFF;
+	background-color: #000;
+	line-height: 20px;
+	padding:3px;
+}
+
+.userList .label{
+	background-color: #CCC;
+	line-height: 20px;
+	padding:3px;
+}
+
+.userList .lists{
+	height:135px;
+	overflow-y: auto;
+}
+
